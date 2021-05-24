@@ -1,0 +1,176 @@
+/* START HEADER */
+
+.bg-light {
+  /* background-color: #2b3d68 !important; */
+  background-color: #742b05 !important;
+  /* background-image: linear-gradient(to right, #6a451d 0%, #3b2612 100%); */
+}
+
+/* Navbar */
+/* Hover link */
+@media (min-width: 992px) {
+  .is-transparent:not(.has-fixed):not(.is-light) .menu > .menu-item:hover > a {
+    color: #f08939;
+  }
+}
+
+.menu-item a .active,
+.menu-item a:hover {
+  color: #f08939;
+}
+
+/* Sticky Nav */
+.has-fixed:not(.is-dark) .header-main {
+  background: #221f1f;
+}
+
+/* Overlay */
+.header-navbar-overlay {
+  background: rgba(19, 30, 57, 0.5);
+}
+
+.toggle-line {
+  color: #fff;
+}
+.token-alocate-item-s1:before {
+  background: rgba(254, 254, 255, 0.04);
+}
+
+/* Header Background */
+.bg-theme-grad {
+  background-image: linear-gradient(
+    to right,
+    #573003 0%,
+    #130c05 100%
+  ) !important;
+}
+.nk-df-mask-f,
+.mask-f:before,
+.mask-f-bg {
+  background-image: url(../images/mask-f.svg) !important;
+}
+
+/* Button Primary */
+.btn-primary {
+  background-color: #f08939;
+  border-color: #f08939;
+}
+
+.tc-light .btn-primary:hover,
+.tc-light .btn-primary:focus {
+  background-color: #fa9f59;
+  border-color: #fa9f59;
+  color: rgb(255, 255, 255) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #fa9f59;
+  border-color: #fa9f59;
+}
+
+/* Title */
+h1.title {
+  color: #fff;
+}
+
+/* Paragraph */
+header p.lead {
+  color: #fff !important;
+}
+
+.card {
+  background: #131e39;
+}
+
+.card p,
+.card h4 {
+  color: #fff;
+}
+
+h2.title {
+  color: #fff;
+}
+
+p {
+  color: #fff !important;
+}
+
+h4.title {
+  color: #ffcaa2;
+}
+
+.list-number-s2 li span {
+  background: #221f1f;
+  color: #fff;
+}
+
+#tokens {
+  color: #fff;
+}
+
+#tokens h4.title {
+  color: #fff;
+}
+
+#tokens .token-info-title {
+  color: #ffcaa2;
+}
+
+#tokens h4.token-info-des {
+  color: #fff;
+}
+
+.tc-light .roadmap-year,
+.tc-light .roadmap-line:after,
+.tc-light .roadmap-line:before,
+.tc-light .roadmap-step:before {
+  background: #f08939;
+}
+
+.tc-light .list li {
+  color: #fff;
+}
+
+.accordion-title,
+.accordion-title.collapsed {
+  color: #ffcaa2;
+}
+
+.accordion-title.collapsed:hover {
+  color: #f08939;
+}
+
+footer h4.title {
+  color: #fff;
+}
+
+.gradiant {
+  background: rgb(12, 8, 3);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 8, 3, 1) 0%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(12, 8, 3, 1) 100%
+  );
+}
+
+.topGradiant {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 31%,
+    rgba(12, 8, 3, 1) 100%
+  );
+}
+
+.bottomGradiant {
+  background: rgb(12, 8, 3);
+  background: linear-gradient(
+    180deg,
+    rgba(12, 8, 3, 0) 0%,
+    rgba(0, 0, 0, 0) 67%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+}
