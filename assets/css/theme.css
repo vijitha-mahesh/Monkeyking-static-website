@@ -44,11 +44,6 @@
     #130c05 100%
   ) !important;
 }
-.nk-df-mask-f,
-.mask-f:before,
-.mask-f-bg {
-  background-image: url(../images/mask-f.svg) !important;
-}
 
 /* Button Primary */
 .btn-primary {
