@@ -103,6 +103,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Hiruzen";
+  src: url("../fonts/Hiruzen-Exist.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comici";
+  src: url("../fonts/comici.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /** 02. Utilities */
 /** 02.01 Reset */
 html,
@@ -181,7 +195,7 @@ h6,
 .h6 {
   color: #0a1992;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Comici", "Poppins", sans-serif;
   line-height: 1.45;
   margin-bottom: 0.5rem;
 }
